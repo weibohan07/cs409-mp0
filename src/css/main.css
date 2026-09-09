@@ -1,1 +1,85 @@
 /* Your CSS here. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ffffff;
+  color: #1f2933;
+}
+
+.card {
+  width: 100%;
+  max-width: 380px;
+  padding: 2.25rem 2rem;
+
+  background-color: #f2f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 1.125rem;
+  box-shadow: 0 .75rem 2rem #1f293320;
+
+  text-align: center;
+}
+
+.image {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 22px;
+
+  object-fit: cover;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 0 0 1rem;
+
+  font-size: 2rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.biography {
+  margin: 0;
+
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.link {
+  display: block;
+  width: fit-content;
+  margin: 1.5rem auto 0;
+  padding: 11px 18px;
+
+  background-color: #ffffff;
+  border: 1.5px solid #623cc9;
+  border-radius: 8px;
+  color: #623cc9;
+
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+
+  transition: background-color .2s ease-in-out;
+}
+
+.link:hover,
+.link:focus-visible {
+  background-color: #ece6ff;
+}
+
+.link:focus-visible {
+  outline: 3px solid #b69bff;
+  outline-offset: 0;
+}
